@@ -1,0 +1,36 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-icon-send {
+  width: 38px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-frame {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-Fra {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-paper-plane-o {
+  width: 28px;
+  height: 28px;
+  background-position: 0 -48px;
+}
+.icon-paper-plane {
+  width: 28px;
+  height: 28px;
+  background-position: -44px -48px;
+}
+.icon-paperplane {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -92px;
+}
+

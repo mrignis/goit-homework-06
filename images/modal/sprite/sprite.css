@@ -1,0 +1,36 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-email {
+  width: 21px;
+  height: 28px;
+  background-position: 0 0;
+}
+.icon-Property-1click {
+  width: 28px;
+  height: 28px;
+  background-position: -44px 0;
+}
+.icon-Property {
+  width: 28px;
+  height: 28px;
+  background-position: -88px 0;
+}
+.icon-phone {
+  width: 21px;
+  height: 28px;
+  background-position: -132px 0;
+}
+.icon-person {
+  width: 28px;
+  height: 28px;
+  background-position: -176px 0;
+}
+.icon-checkbox-checked {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -44px;
+}
+

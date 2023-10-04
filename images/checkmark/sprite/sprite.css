@@ -1,0 +1,41 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-checked {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-check_box {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -48px;
+}
+.icon-Property-1click {
+  width: 28px;
+  height: 28px;
+  background-position: 0 -88px;
+}
+.icon-Property {
+  width: 28px;
+  height: 28px;
+  background-position: -44px -88px;
+}
+.icon-checkbox-checked {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -132px;
+}
+.icon-checkmark {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -132px;
+}
+.icon-checkbox-checked1 {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -132px;
+}
+

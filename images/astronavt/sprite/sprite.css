@@ -1,0 +1,26 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-diagram {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-clock {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-astronaut-1 {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-antenna1 {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+
