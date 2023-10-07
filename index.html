@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
@@ -14,49 +15,93 @@
     
     
     <link href="./css/style.css" rel="stylesheet">
-    
+    <link href="./css/css mobile.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
 </head>
 <body>
-     <header class="header">
-            
+     <header class="header">    
         <div class="container additional-default">    
-        <nav class="menu">
             <a class="titleweb" href="./index.html">Web<span class="span">Studio</span></a>
-            <ul class="head-menu  is-open">
-                <li class="head-menu-one ">
-                    <a class="head-menu-two " href="./index.html"><span> Studio</span></a>
-                </li> 
-                <li class="head-menu-one ">
-                    <a  class="head-menu-two " href="" >Portfolio </a>
-                </li> 
-                <li class="head-menu-one "> 
-                    <a  class="head-menu-two " href="" > Contacts</a>
-                </li> 
-            </ul>
-        </nav>
-      
-            <address class="adress">
-                <ul class="links-two">
-                    <li class="email">
-                        <a  class="info" href="mailto:info@devstudio.com">
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="tel">
-                        <a class="info" href="tel:+110001111111"> 
-                            +11 (000) 111-11-11
-                        </a>
+            
+
+            <div class="header-menu-overlay"></div>
+            <div class="header-menu">
+                <nav class="menu">
+                <ul class="head-menu">
+                    <li class="head-menu-one ">
+                        <a class="head-menu-two " href="./index.html"><span> Studio</span></a>
+                    </li> 
+                    <li class="head-menu-one ">
+                        <a  class="head-menu-two " href="" >Portfolio </a>
+                    </li> 
+                    <li class="head-menu-one "> 
+                        <a  class="head-menu-two " href="" > Contacts</a>
                     </li> 
                 </ul>
-            </address>
+                </nav>
+                
+
+                <address class="address">
+                    <ul class="links-two">
+                        <li class="email">
+                            <a  class="info" href="mailto:info@devstudio.com">
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="tel">
+                            <a class="info" href="tel:+110001111111"> 
+                                +11 (000) 111-11-11
+                            </a>
+                        </li> 
+                    </ul>
+                </address>
+           
         
-        </div>      
-    </header>
+                <div class=" hover-mobile-link">   
+                    <ul class="staff-sm-one">
+                    <li class="social-media-zero">
+                    <a class="social-media-link" href="#" tabindex="0">
+                        <svg  class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-instagram-2-2"></use>
+                    </svg>
+                    </a>
+            </li>
+            <li class="social-media-zero">
+                <a class="social-media-link" href="#" tabindex="0">
+                <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-twitter-1-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-media-zero">
+               <a class="social-media-link" href="#" tabindex="0">
+                    <svg class="social-media-one" width="16" height="16">
+                        <use  href="./images/icomoon (1)/symbol-defs.svg#icon-facebook-1-2"></use>
+                    </svg>
+               </a>
     
+            <li class="social-media-zero">
+                <a class="social-media-link" href="#" tabindex="0">
+                    <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-linkedin-1-2"></use>
+                    </svg>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div >
+      
+   
+     </header>
     
     <main>
 
@@ -83,7 +128,9 @@
                             <p class="text-one">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
                         </li>
                        
-                        <li class="one" ><div class="rectangle"><svg class="skills-image"  width="64" height="64" > <use href="./images/astronavt/symbol-defs.svg#icon-clock"></use></svg></div>
+                        <li class="one" ><div class="rectangle">
+                            <svg class="skills-image"  width="64" height="64" > <use href="./images/astronavt/symbol-defs.svg#icon-clock"></use>
+                            </svg></div>
                             <h3 class="stra-one">Punctuality</h3>
                             <p class="text-one">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                         </li>
@@ -110,9 +157,7 @@
                         
             <ul class="products">
                 <li class="product ">
-                    <img
-                     src="./images/img.jpg" alt="Designer" width="264" 
-                     srcset="./images/img.jpg 1x, ./images/img.jpg 2x">
+                    <img src="./images/img.jpg" alt="Designer" width="264">
                     <div class="guer">
                         <h3 class="name">Mark Guerrero</h3>
                         <p class="text">Product Designer</p>
@@ -149,7 +194,7 @@
                 </div>
                 </li>
                 <li class="product">
-                    <img src="./images/img,.jpg" alt="Frontend" width="264" srcset="./images/img,.jpg 1x, ./images/img,.jpg 2x">
+                    <img src="./images/img,.jpg" alt="Frontend" width="264">
                     <div class="guer">
                         <h3 class="name">Tom Ford</h3>
                         <p class="text">Frontend Developer</p>  
@@ -187,8 +232,7 @@
                     
                 </li>
                 <li class="product">
-                    <img src="./images/img3.jpg" alt="marketing" width="264" 
-                    srcset="./images/img3.jpg1x, ./images/img3.jpg 2x">
+                    <img src="./images/img3.jpg" alt="marketing" width="264">
                     <div class="guer">
                         <h3 class="name">Camila Garcia</h3>
                         <p class="text">Marketing</p>  
@@ -225,8 +269,7 @@
                 </div>
                 </li>
                 <li class="product">
-                    <img src="./images/4.jpg" alt="Designer" width="264"
-                     srcset="./images/4.jpg 1x, ./images/4.jpg 2x">
+                    <img src="./images/4.jpg" alt="Designer" width="264">
                     <div class="guer">
                         <h3 class="name">Daniel Wilson</h3>
                         <p  class="text">UI Designer</p>   
@@ -270,8 +313,7 @@
                     <h2 class="our-port">Our Portfolio</h2>
                     <ul class="presentation ">
                         
-                        <li class="image"><div class="picture-work"><img src="./images/portfolioapp.jpg"  
-                            srcset="./images/portfolioapp.jpg 1x, ./images/portfolioapp.jpg 2x"
+                        <li class="image"><div class="picture-work"><img src="./images/portfolioapp.jpg" 
                             alt="Banking App" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
                         <div class="work">    
                             <h3 class="first">Banking App</h3>
@@ -280,7 +322,6 @@
                         </li>
                     
                         <li class="image"><div class="picture-work"><img src="./images/portfoliomarketing.jpg" 
-                            srcset="./images/portfoliomarketing.jpg 1x, ./images/portfoliomarketing.jpg 2x" 
                             alt="Cashless Payment" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div> 
                         <div class="work">    
                             <h3 class="first">Cashless Payment</h3>
@@ -288,7 +329,7 @@
                         </div>    
                         </li>
                         
-                            <li class="image"><div class="picture-work"><img src="./images/por.jpg"  srcset="./images/por.jpg 1x, ./images/por.jpg 2x"
+                            <li class="image"><div class="picture-work"><img src="./images/por.jpg" 
                             alt="Meditation App" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
                             <div class="work">
                                 <h3 class="first">Meditation App</h3>
@@ -296,15 +337,15 @@
                             </div>    
                         </li>
                     
-                            <li class="image"><div class="picture-work"><img src="./images/portfoliotaxi.jpg"  srcset="./images/portfoliotaxi.jpg 1x, ./images/portfoliotaxi.jpg 2x"
+                            <li class="image"><div class="picture-work"><img src="./images/portfoliotaxi.jpg" 
                             alt="Taxi Service" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
-                            <div class="work ">
+                            <div class="work">
                                 <h3 class="first">Taxi Service</h3>
                                 <p  class="second">Marketing</p>
                             </div>    
                         </li>
                         
-                            <li class="image"><div class="picture-work"><img src="./images/portfolioscreen.jpg"  srcset="./images/portfolioscreen.jpg 1x, ./images/portfolioscreen.jpg 2x"
+                            <li class="image"><div class="picture-work"><img src="./images/portfolioscreen.jpg" 
                             alt="Screen Illustrations" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
                             <div class="work">
                                 <h3 class="first">Screen Illustrations</h3>
@@ -313,7 +354,7 @@
                         </li>
                         
                         
-                            <li class="image"><div class="picture-work"><img src="./images/portfolioonlinecours.jpg" srcset="./images/portfolioonlinecours.jpg 1x, ../images/portfolioonlinecours.jpg 2x"
+                            <li class="image"><div class="picture-work"><img src="./images/portfolioonlinecours.jpg"
                             alt="Online Courses"  width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
                             <div class="work">
                                 <h3 class="first">Online Courses</h3>
@@ -450,9 +491,7 @@
 		</div>
 	</div>
 
-    <script src="./modal.js"></script>
 
+<script src="./modal.js"></script>
 </body>
 </html> 
-
-
