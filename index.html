@@ -15,7 +15,7 @@
     
     
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/css mobile.css" rel="stylesheet">
+    
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -56,80 +56,13 @@
             
            
         
-         
-                <div class="modal-header">
-                    <div class="header-menu-overlay"></div>  
-                       <div class="header-menu"> 
-                                    <nav class="menu-modal">
-                                        <ul class="head-menu-modal">
-                                            <li class="head-menu-one-modal">
-                                                <a class="head-menu-two-modal " href="./index.html"><span> Studio</span></a>
-                                            </li> 
-                                            <li class="head-menu-one-modal">
-                                                <a  class="head-menu-two-modal " href="" >Portfolio </a>
-                                            </li> 
-                                            <li class="head-menu-one-modal "> 
-                                                <a  class="head-menu-two-modal " href="" > Contacts</a>
-                                            </li> 
-                                        </ul>
-                                    </nav>
-                                  
-                                        <address class="adress-modal">
-                                            <ul class="links-two-modal">
-                                                <li class="email-modal">
-                                                  
-                                                        <a  class="info-modal email-modal" href="mailto:info@devstudio.com">
-                                                           <span> info@devstudio.com</span>
-                                                        </a>
-                                                
-                                                </li>
-                                                <li class="tel-modal">
-                                                    <a class="info-modal" href="tel:+110001111111"> 
-                                                        +11 (000) 111-11-11
-                                                    </a>
-                                                </li> 
-                                            </ul>
-                                        </address>
-                                
-                                        <div class=" hover-mobile-link">   
-                                            <ul class="staff-sm-one">
-                                            <li class="social-media-zero">
-                                            <a class="social-media-link" href="#" tabindex="0">
-                                                <svg  class="social-media-one" width="16" height="16">
-                                                <use href="./images/icomoon (1)/symbol-defs.svg#icon-instagram-2-2"></use>
-                                            </svg>
-                                            </a>
-                                    </li>
-                                    <li class="social-media-zero">
-                                        <a class="social-media-link" href="#" tabindex="0">
-                                        <svg class="social-media-one" width="16" height="16">
-                                                <use href="./images/icomoon (1)/symbol-defs.svg#icon-twitter-1-2"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="social-media-zero">
-                                       <a class="social-media-link" href="#" tabindex="0">
-                                            <svg class="social-media-one" width="16" height="16">
-                                                <use  href="./images/icomoon (1)/symbol-defs.svg#icon-facebook-1-2"></use>
-                                            </svg>
-                                       </a>
-                            
-                                    <li class="social-media-zero">
-                                        <a class="social-media-link" href="#" tabindex="0">
-                                            <svg class="social-media-one" width="16" height="16">
-                                                <use href="./images/icomoon (1)/symbol-defs.svg#icon-linkedin-1-2"></use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    </ul>
-                                    </div>
-                              </div>
-                              <div class="menu-btn">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
+                    
+         <div id="openModalButton" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
                 </div>
+
       
    
      </header>
@@ -137,7 +70,7 @@
     <main>
 
         <section class="main-title">
-        <div class="container">
+        <div class="container  container-main-title">
             <h1 class="esyb">Effective Solutions 
                 for Your Business</h1>
                 <button class="button-main"  type="submit" id="modal-open-btn">Order Service</button> 
@@ -345,7 +278,7 @@
                     <ul class="presentation ">
                         
                         <li class="image"><div class="picture-work"><img src="./images/portfolioapp.jpg" 
-                            srcset="./images/portfolioapp.jpg1x , 
+                            srcset="./images/portfolioapp.jpg 1x , 
                             ./images/portfolioapp.jpg 2x"
                             alt="Banking App" width="360"><p class="active-back">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div>
                         <div class="work">    
@@ -534,6 +467,82 @@
 		</div>
 	</div>
 
+
+
+
+    <div class="mymodal" id="myModal" style="display: none;>
+        <div class="overlay">
+          <div class="content">
+            <button id="modal-hover-close-order-btn" class="modal-close" type="button">
+              <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/modal-icon/symbol-defs.svg#icon-close-black"></use>
+              </svg>
+            </button>
+            <div class="menu-container">
+              <nav class="menu-modal">
+                <ul class="head-menu-modal">
+                  <li class="head-menu-one-modal">
+                    <a class="head-menu-two-modal" href="./index.html"><span> Studio</span></a>
+                  </li>
+                  <li class="head-menu-one-modal">
+                    <a class="head-menu-two-modal" href="">Portfolio</a>
+                  </li>
+                  <li class="head-menu-one-modal">
+                    <a class="head-menu-two-modal" href="">Contacts</a>
+                  </li>
+                </ul>
+              </nav>
+              <address class="adress-modal">
+                <ul class="links-two-modal">
+                  <li class="email-modal">
+                    <a class="info-modal email-modal" href="mailto:info@devstudio.com">
+                      <span>info@devstudio.com</span>
+                    </a>
+                  </li>
+                  <li class="tel-modal">
+                    <a class="info-modal" href="tel:+110001111111">
+                      +11 (000) 111-11-11
+                    </a>
+                  </li>
+                </ul>
+              </address>
+              <div class="hover-mobile-link-modal">
+                <ul class="staff-sm-one-modal">
+                  <li class="social-media-zero">
+                    <a class="social-media-link" href="#" tabindex="0">
+                      <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-instagram-2-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-zero">
+                    <a class="social-media-link" href="#" tabindex="0">
+                      <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-twitter-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-zero">
+                    <a class="social-media-link" href="#" tabindex="0">
+                      <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-facebook-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-zero">
+                    <a class="social-media-link" href="#" tabindex="0">
+                      <svg class="social-media-one" width="16" height="16">
+                        <use href="./images/icomoon (1)/symbol-defs.svg#icon-linkedin-1-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 <script src="./modal.js"></script>
 </body>
 </html> 
