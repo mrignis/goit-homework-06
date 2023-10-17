@@ -563,7 +563,7 @@ nav  .top-top {
         font-style: normal;
         font-weight: 700;
         line-height: 1.07; /* 107.143% */
-        letter-spacing: 0.00;}
+        letter-spacing: 0.02em;}
     div .button-main{
         margin-top: 32px;
         justify-content: center;
@@ -579,7 +579,7 @@ nav  .top-top {
         font-style: normal;
         font-weight: 500;
         line-height: 1.5; /* 150% */
-        letter-spacing: 0.64px;}
+        letter-spacing: 0.03em;}
        
     }
     /*stra*/
@@ -614,7 +614,7 @@ gap: 8px;}
         font-style: normal;
         font-weight: 700;
         line-height: 1.11; /* 111.111% */
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;}
     div .text-one{color: var(--SLATE, #434455);
 width: 356px;
@@ -624,7 +624,7 @@ width: 356px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5; /* 150% */
-        letter-spacing: 0.32px;}
+        letter-spacing: 0,02em;}
 
 
 
