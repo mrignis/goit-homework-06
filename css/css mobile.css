@@ -155,7 +155,7 @@ height: 56px;align-items: center;
 /* початок стафф адаптації*/
 @media screen and  (min-width:320px) { 
    ul  .guer{ 
-    padding: 32px 16px;
+    padding: 32px 0;
     margin: 0 auto;
         min-width: 232px;
         flex-direction: column;
